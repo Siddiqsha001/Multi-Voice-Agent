@@ -1,25 +1,25 @@
-# You are currently in Multi Agent Voice Conversation directory.
+# Hi there, I am Siddiqsha
 
-**This project consists of the deliverables from all the 4 weeks:**
+The given task is about a **Multi Agent voice conversation** system.
 
-1. Week-1 :
+*Built a multi agent voice assistant with deepgram and pinecone integration. Designed modular agents (optimist, realist and planner) with shared vector memory space and real time web tools, orchestrated through streamlit UI.*
 
-   - Implemented prompting techniques.
-   - Apt use of the APIs and the models.
-   - Refer file "prompts.py"
-  
-2. Week-2 :
+- This enables the user to interact or discuss with the agents in own pace.
 
-   - RAG implementation : which includes vector embeddings and semantic search.
-   - Refer files "memory.py" and "memory_store.py"
+**Implementation:**
 
-3. Week-3 :
+- I tested it with 2 scenarios.
+- One is **technical + real time related** while the other one is **technical + plan related**.
 
-   - Real time data fetching through serper.
-   - Multi agent workflow orchestration by LangGraph.
-   - Refer "state.py" and "app.py"
-  
-4. Speech To Text and Text To Speech :
+**Key takeaways:**
 
-   - Implemented STT and TTS for voice interaction between the agents and the user.
-   - Refer "tts_stt.py"
+- To deal with voice input and output(Voice Integration).
+- Proper flow implementation amoung the agents.
+- Implemented a shared space which is accessible by all the agents/nodes.
+- Vector based knowledge + real time web search.
+- Usage of fallback strategies for debugging.
+
+**Challenges:**
+
+- Voice input accuracy : used deepgram for converting speech to text.
+- Decentralized agent flow : implemented proper flow using LangGraph.
