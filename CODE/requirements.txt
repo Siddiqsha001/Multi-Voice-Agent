@@ -1,0 +1,9 @@
+langchain
+langgraph
+google-generativeai
+pydantic
+pinecone-client
+streamlit
+soundfile
+numpy
+deepgram-sdk
